@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "148828180094",
+    "firebase_url": "https://kid-control-tracker.firebaseio.com",
+    "project_id": "kid-control-tracker",
+    "storage_bucket": "kid-control-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148828180094:android:7d3fe50d7a17dbf5",
+        "android_client_info": {
+          "package_name": "beloshitskiy.kidcontroltracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148828180094-hnb962gs3jnbng3jfs7tkvg5fb5rnf6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV7uIE0uo28_VleLIQHufgjRV0dihjacg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
