@@ -8,4 +8,7 @@
     <string name="next">Next</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_name">Enter your name</string>
+    <string name="your_friends_can_find_you_by_this_personal_code">Your friends can find you by this personal code</string>
+    <string name="finish">FINISH</string>
+    <string name="xxxxxx">XXXXXX</string>
 </resources>
