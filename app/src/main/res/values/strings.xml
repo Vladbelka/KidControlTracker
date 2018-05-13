@@ -11,4 +11,12 @@
     <string name="your_friends_can_find_you_by_this_personal_code">Your friends can find you by this personal code</string>
     <string name="finish">FINISH</string>
     <string name="xxxxxx">XXXXXX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation">Map</string>
+    <string name="title_activity_user_location_main">UserLocationMainActivity</string>
 </resources>

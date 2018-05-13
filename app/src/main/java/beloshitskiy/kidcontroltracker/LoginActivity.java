@@ -1,5 +1,6 @@
 package beloshitskiy.kidcontroltracker;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,6 +40,9 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful())
                         {
                             Toast.makeText(getApplicationContext(),"User logged in successfully", Toast.LENGTH_LONG).show();
+                            Intent myIntent = new Intent(LoginActivity.this, UserLocationMainActivity.class);
+                            startActivity(myIntent);
+                            finish();
                         }
                         else
                         {

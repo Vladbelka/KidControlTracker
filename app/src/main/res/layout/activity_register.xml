@@ -24,7 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-
+        android:background="#AB47BC"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:onClick="goToPasswordActivity"

@@ -80,6 +80,10 @@ public class InviteCodeActivity extends AppCompatActivity {
                                             {
                                                 progressDialog.dismiss();
                                                 Toast.makeText(getApplicationContext(),"Registration finished successfully",Toast.LENGTH_LONG).show();
+
+                                                Intent myIntent = new Intent(InviteCodeActivity.this,UserLocationMainActivity.class);
+                                                startActivity(myIntent);
+                                                finish();
                                             }
                                             else
                                             {

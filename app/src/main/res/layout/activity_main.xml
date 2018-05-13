@@ -15,6 +15,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="16dp"
+        android:background="#AB47BC"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:onClick="goToRegister"
         android:text="@string/sign_up" />
 
@@ -26,6 +29,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="16dp"
+        android:background="#AB47BC"
         android:onClick="goToLogin"
-        android:text="@string/sign_in" />
+        android:text="@string/sign_in"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 </RelativeLayout>
