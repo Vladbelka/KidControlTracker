@@ -62,6 +62,7 @@ public class NameActivity extends AppCompatActivity {
             myIntent.putExtra("code", code);
             myIntent.putExtra("imageUri", resultUri);
             startActivity(myIntent);
+            finish();
         }
         else
         {
@@ -76,6 +77,7 @@ public class NameActivity extends AppCompatActivity {
         i.setAction(Intent.ACTION_GET_CONTENT);
         i.setType("image/*");
         startActivityForResult(i,12);
+
     }
 
     @Override
