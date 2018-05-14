@@ -37,7 +37,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class UserLocationMainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener, LocationListener {
+        GoogleApiClient.OnConnectionFailedListener, com.google.android.gms.location.LocationListener {
 
     FirebaseAuth auth;
     GoogleApiClient client;
@@ -185,21 +185,6 @@ public class UserLocationMainActivity extends AppCompatActivity
             options.title("Current Location");
             mMap.addMarker(options);
         }
-    }
-
-    @Override
-    public void onStatusChanged(String s, int i, Bundle bundle) {
-
-    }
-
-    @Override
-    public void onProviderEnabled(String s) {
-
-    }
-
-    @Override
-    public void onProviderDisabled(String s) {
-
     }
 
 }
