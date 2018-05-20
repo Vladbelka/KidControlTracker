@@ -163,6 +163,8 @@ public class UserLocationMainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_joinGroup) {
+            Intent myIntent = new Intent(UserLocationMainActivity.this, JoinGroupActivity.class);
+            startActivity(myIntent);
 
         } else if (id == R.id.nav_myGroup) {
 

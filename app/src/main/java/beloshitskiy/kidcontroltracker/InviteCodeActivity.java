@@ -73,10 +73,11 @@ public class InviteCodeActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
-                            //insert values in Firebase Realtime Database
-                            CreateUser createUser = new CreateUser(name, email, password, code, "false", "na", "na", "na");
-
                             user = auth.getCurrentUser();
+
+                            //insert values in Firebase Realtime Database
+                            CreateUser createUser = new CreateUser(name, email, password, code, "false", "na", "na", "na", user.getUid());
+
                             userId = user.getUid();
 
                             reference.child(userId).setValue(createUser)
