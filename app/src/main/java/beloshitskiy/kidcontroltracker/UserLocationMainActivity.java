@@ -167,7 +167,8 @@ public class UserLocationMainActivity extends AppCompatActivity
             startActivity(myIntent);
 
         } else if (id == R.id.nav_myGroup) {
-
+            Intent myIntent = new Intent(UserLocationMainActivity.this, MyGroupActivity.class);
+            startActivity(myIntent);
         } else if (id == R.id.nav_trackedMe) {
 
         } else if (id == R.id.nav_inviteMembers) {
