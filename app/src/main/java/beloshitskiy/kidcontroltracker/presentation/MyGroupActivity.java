@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +16,11 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import beloshitskiy.kidcontroltracker.R;
+import beloshitskiy.kidcontroltracker.application.MembersAdapter;
+import beloshitskiy.kidcontroltracker.domain.CreateUser;
+import beloshitskiy.kidcontroltracker.domain.GroupJoin;
+
 public class MyGroupActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
@@ -25,6 +30,8 @@ public class MyGroupActivity extends AppCompatActivity {
     FirebaseUser user;
     CreateUser createUser;
     ArrayList<CreateUser> nameList;
+    ArrayList<GroupJoin> groupList;
+
     DatabaseReference reference, userReference;
     String groupMemberId;
 
@@ -37,6 +44,7 @@ public class MyGroupActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         user = auth.getCurrentUser();
         nameList = new ArrayList<>();
+        groupList = new ArrayList<>();
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

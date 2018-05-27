@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import beloshitskiy.kidcontroltracker.R;
 
 public class PasswordActivity extends AppCompatActivity {
 

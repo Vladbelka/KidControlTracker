@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +17,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+
+import beloshitskiy.kidcontroltracker.R;
+import beloshitskiy.kidcontroltracker.domain.CreateUser;
+import beloshitskiy.kidcontroltracker.domain.GroupJoin;
 
 public class JoinGroupActivity extends AppCompatActivity {
 

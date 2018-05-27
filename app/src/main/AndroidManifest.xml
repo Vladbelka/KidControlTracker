@@ -21,18 +21,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".presentation.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".PasswordActivity" />
-        <activity android:name=".NameActivity" />
-        <activity android:name=".InviteCodeActivity" />
+        <activity android:name=".presentation.LoginActivity" />
+        <activity android:name=".presentation.RegisterActivity" />
+        <activity android:name=".presentation.PasswordActivity" />
+        <activity android:name=".presentation.NameActivity" />
+        <activity android:name=".presentation.InviteCodeActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
@@ -49,12 +49,12 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".UserLocationMainActivity"
+            android:name=".presentation.UserLocationMainActivity"
             android:label="@string/title_activity_user_location_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".JoinGroupActivity" />
+        <activity android:name=".presentation.JoinGroupActivity" />
         <!-- <activity android:name=".GroupJoin"></activity> -->
-        <activity android:name=".MyGroupActivity"></activity>
+        <activity android:name=".presentation.MyGroupActivity"></activity>
     </application>
 
 </manifest>

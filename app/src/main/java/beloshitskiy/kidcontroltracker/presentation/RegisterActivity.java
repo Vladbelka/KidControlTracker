@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -13,6 +13,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.ProviderQueryResult;
+
+import beloshitskiy.kidcontroltracker.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

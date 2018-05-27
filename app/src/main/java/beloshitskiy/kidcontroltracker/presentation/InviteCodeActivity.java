@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -20,6 +20,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+
+import beloshitskiy.kidcontroltracker.R;
+import beloshitskiy.kidcontroltracker.domain.CreateUser;
 
 public class InviteCodeActivity extends AppCompatActivity {
 

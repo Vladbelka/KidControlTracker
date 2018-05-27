@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -16,6 +16,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
+import beloshitskiy.kidcontroltracker.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class NameActivity extends AppCompatActivity {

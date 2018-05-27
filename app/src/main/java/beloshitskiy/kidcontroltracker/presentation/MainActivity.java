@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -12,6 +12,8 @@ import com.google.firebase.auth.FirebaseUser;
 import com.karan.churi.PermissionManager.PermissionManager;
 
 import java.util.ArrayList;
+
+import beloshitskiy.kidcontroltracker.R;
 
 public class MainActivity extends AppCompatActivity {
 

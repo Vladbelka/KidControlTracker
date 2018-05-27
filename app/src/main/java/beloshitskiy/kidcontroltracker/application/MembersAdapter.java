@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.application;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -15,6 +15,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import beloshitskiy.kidcontroltracker.domain.CreateUser;
+import beloshitskiy.kidcontroltracker.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MembersAdapter extends RecyclerView.Adapter<MembersAdapter.MembersViewHolder>

@@ -1,4 +1,4 @@
-package beloshitskiy.kidcontroltracker;
+package beloshitskiy.kidcontroltracker.presentation;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,6 +13,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import beloshitskiy.kidcontroltracker.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -33,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View v)
-    {
+        {
         auth.signInWithEmailAndPassword(e1.getText().toString(), e2.getText().toString())
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
